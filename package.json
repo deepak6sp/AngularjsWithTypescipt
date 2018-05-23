@@ -1,7 +1,7 @@
 {
-  "name": "karma-configuration-for-angular-typescript",
+  "name": "angularjs-with-typescript",
   "version": "1.0.0",
-  "description": "Karma configuration for Angular & Typescript",
+  "description": "Angular Mocks, Protractor, Karma configuration for AngularJS With Typescript",
   "scripts": {
     "start": "webpack-dev-server --content-base ./ ",
     "build": "webpack",
@@ -18,7 +18,6 @@
     "typescript": "latest"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
     "jasmine-core": "^2.6.4",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
