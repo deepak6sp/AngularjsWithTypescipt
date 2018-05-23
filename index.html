@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="myAppE2E">
+    <head>
+        <title>AngularJS With Typescript</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/main.js"></script>
+        <script src="/mocks.js"></script>
+    </head>
+
+    <body ng-controller="MyController as ctrl">
+        <h1>{{ctrl.title}}</h1>
+        <button ng-click="ctrl.getMovieDataService()">Get My Name</button>
+    </body>
+</html>
