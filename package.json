@@ -15,6 +15,7 @@
     "@types/jasmine": "^2.5.53",
     "angular": "^1.6.4",
     "angular-mocks": "^1.6.4",
+    "express": "^4.16.3",
     "typescript": "latest"
   },
   "devDependencies": {
